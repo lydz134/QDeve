@@ -1,0 +1,11 @@
+{
+	"passwordSecret": "wx5e390ac905c8a556",
+	"tokenSecret": "wx5e390ac905c8a556",
+	"tokenExpiresIn": 259200,
+	"mp-weixin":{
+		"tokenExpiresIn": 7200
+	},
+	"app-plus": {
+		"tokenExpiresIn": 432000
+	}
+}

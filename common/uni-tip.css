@@ -1,0 +1,152 @@
+/*popup底部可滚动列表*/
+.memberlist{
+	/* #ifndef APP-NVUE */
+	display: flex;
+	flex-direction: column;
+	/* #endif */
+	width:750rpx;
+	padding: 30rpx 0;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.memberlist-scroll{
+	height: 375rpx;
+}
+.memberlist-item{
+	color: black;
+	padding: 20rpx 0; 
+	margin: 0 35rpx;
+	font-size: 15px;
+	border-bottom: 0.5rpx solid #e2e2e2;
+	text-align: center;
+}
+.memberlist-button{
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+	margin-top: 20px;
+}
+.memberlist-button text{
+	flex: 1;
+	text-align: center;
+	font-size: 14px;
+	color: #3b4144;
+}
+/*可选列表*/
+.uni-list-cell {
+	justify-content: flex-start;
+}
+.uni-list-cell:active{
+	background-color: #e2e2e2;
+}
+/*操作栏*/
+.intro{
+	background:#FFF; 
+	border-bottom: 1rpx solid #e2e2e2;
+	display:flex;
+	flex-direction: row;
+}
+.intro .info{
+	width: 100%;
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+}	
+.intro .info .text{
+	font-size: 30rpx;
+	display:flex;
+}
+.intro .info .button{
+	width: 20%;
+	cursor: pointer;
+	display:flex;
+	justify-content:center;
+}
+.intro .info .button view{
+	font-size: 45rpx;
+	display:flex;
+}
+/*项目介绍板*/
+.project-info{
+	background:#FFF; 
+	margin-top: 30rpx;
+	padding:20rpx 0rpx 40rpx 20rpx;
+	border-bottom: 1rpx solid #e2e2e2;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-around;
+}
+.project-info .info{
+	width: 90%;
+	padding-bottom: 20rpx;
+	display:flex;
+	flex-direction: column;
+}
+.list-item{
+	opacity: 0;
+}
+/* 提示窗口 */
+.uni-tip {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	flex-direction: column;
+	/* #endif */
+	padding:30px 15px 15px 15px;
+	width: 250px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.uni-tip-title {
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+}
+.uni-tip-content {
+	color: black;
+	margin: 20rpx 0;
+	padding: 10rpx 0; 
+	font-size: 15px;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	text-align: center;
+}
+.uni-tip-sheet-button {
+	margin-top: 20rpx;
+	font-size: 13px;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+.uni-tip-calender-button {
+	margin-top: 20rpx;
+	font-size: 13px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.uni-tip-calender-button view{
+	height: 55rpx;
+	padding: 0 30rpx;
+	font-size: 13px;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	
+	display: flex;
+}
+.uni-tip-group-button {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+	margin-top: 20px;
+}
+.uni-tip-button {
+	flex: 1;
+	text-align: center;
+	font-size: 14px;
+	color: #3b4144;
+}

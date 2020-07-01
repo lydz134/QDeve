@@ -1,0 +1,37 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login", 		
+			"style": {
+				"navigationBarTitleText": "QDeve"
+			}
+		},{
+			"path": "pages/homepage/homepage", 		
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/iterationpage/iterationpage",		 
+			"style": {
+				"navigationBarTitleText": "迭代" 
+			} 
+		},{
+			"path": "pages/projectpage/projectpage",		
+			"style": {
+				"navigationBarTitleText": "项目"
+			}
+		},{
+			"path": "pages/myprojectpage/myprojectpage", 		
+			"style": {
+				"navigationBarTitleText": "我的项目"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#ffffff",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#07abf5",
+		"backgroundColor": "#ffffff",
+		"animationType":"fade-in"
+	}
+}
